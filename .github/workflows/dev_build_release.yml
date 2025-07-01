@@ -2,7 +2,7 @@ name: Development Build Release
 
 on:
   push:
-    branches: [ "master", "actions-test" ]
+    branches: [ "mztab-continuation" ]
     paths-ignore:
       - 'mzmine-community/src/main/resources/mzmineversion.properties'
 
