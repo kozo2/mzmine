@@ -342,6 +342,7 @@ runtime {
                "jdk.unsupported.desktop"]
     jpackage {
         if (OperatingSystem.current().isWindows()) {
+            skipInstaller = true
             // The WiX toolset must be installed, see https://wixtoolset.org/releases/
             installerType = "msi"
             installerName = "mzmine_Windows_installer"
